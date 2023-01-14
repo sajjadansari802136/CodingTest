@@ -1,6 +1,6 @@
 # Question 1
 
-# Explanation of development environment
+## Explanation of development environment
 I have used Visual Studio Code to write the code for Question 2 because VS Code is a good choice for development or debugging.
 
 In the first line, the header file #include<stdio.h> contains the valid C sources statements that can be compiled as part of a program. The system will find the file named "stdio.h" and read its entire contents in, replacing this statement.
@@ -15,10 +15,10 @@ calc function calculates the outcomes of operations defined by type tags. In the
 
 The main function displays the results of the actions after all nodes have been constructed and the calc function has been run on each of them. For addition, multiplication, and subtraction, the result stored in the node's data field is printed. The fibonacci operation outputs the nth fibonacci number contained in the data field of the node.
 
-# Summary 
+## Summary 
 This application calculates the Fibonacci numbers using dynamic programming. The makeFunc method creates a new node for each operation, while the calc function calculates the outcomes of the operations and puts them in the data field of the newly created node. The outcomes of operations are then printed by the main function.
 
-# Running and compiling the code
+## Running and compiling the code
 First open the Terminal and run the command ‘gcc -v’ to check if you have a compiler installed. If not, you need to download a gcc compiler and install it.
 
 Then we compile the program. To do this we need to use the command gcc followed by the name of the program we are going to execute. In our case, we will use gcc Question1.c
