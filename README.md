@@ -1,4 +1,4 @@
-                                                   # Question 1
+# Question 1
 
 ## Explanation of development environment
 I have used Visual Studio Code to write the code for Question 1 because VS Code is a good choice for development or debugging.
