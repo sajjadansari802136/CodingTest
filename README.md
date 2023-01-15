@@ -11,7 +11,7 @@ Then we define a Node data structure to store the type of the operation and the 
 
 Now we define Node *makeFunc for creating a new node with the type and data supplied. In this, we pass a parameter of type of node and finally return newNode to the main function.
 
-Then function is defined as int fibonacci which takes the parameter a and returns the a’th fibonacci number. Iterative dynamic programming has been used to calculate fibonacci number in which the values are stored in a fib array by iterative calculation of fib[i] = fib[i-1] + fib[i-2]. Finally, we return fib[n]-1.
+Then function is defined as int fibonacci which takes the parameter a and returns the a’th fibonacci number. Iterative dynamic programming has been used to calculate fibonacci number in which the values are stored in a fib array by iterative calculation of fib[i] = fib[i-1] + fib[i-2]. Finally, we return fib[a].
 
 calc function takes 3 input parameters, one TypeTag that defines the type of operation and other two are the integers ‘a’ and ‘b’ on which the operation will be performed. calc function calculates the outcomes of operations defined by type tags. We check the type of node which includes ADD, MUL, SUB and FIBO using “else if” condition and perform operation according to the type of node supplied. 
 
